@@ -1,4 +1,4 @@
-package com.andlinks.cloud.gateway;
+package com.andlinks.cloud.config;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

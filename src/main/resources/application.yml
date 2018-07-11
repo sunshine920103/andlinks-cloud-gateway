@@ -3,12 +3,12 @@ server:
 
 spring:
   application:
-    name: andlinks-cloud-gateway
+    name: andlinks-cloud-config
   cloud:
     gateway:
-      discovery:          #ÊÇ·ñÓë·þÎñ·¢ÏÖ×é¼þ½øÐÐ½áºÏ£¬Í¨¹ý serviceId(±ØÐëÉèÖÃ³É´óÐ´) ×ª·¢µ½¾ßÌåµÄ·þÎñÊµÀý¡£Ä¬ÈÏÎªfalse£¬ÉèÎªtrue±ã¿ªÆôÍ¨¹ý·þÎñÖÐÐÄµÄ×Ô¶¯¸ù¾Ý serviceId ´´½¨Â·ÓÉµÄ¹¦ÄÜ¡£
+      discovery:          #ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð½ï¿½Ï£ï¿½Í¨ï¿½ï¿½ serviceId(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã³É´ï¿½Ð´) ×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Îªfalseï¿½ï¿½ï¿½ï¿½Îªtrueï¿½ã¿ªï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ serviceId ï¿½ï¿½ï¿½ï¿½Â·ï¿½ÉµÄ¹ï¿½ï¿½Ü¡ï¿½
         locator:
-          enabled: true   #Â·ÓÉ·ÃÎÊ·½Ê½£ºhttp://Gateway_HOST:Gateway_PORT/´óÐ´µÄserviceId/**£¬ÆäÖÐÎ¢·þÎñÓ¦ÓÃÃûÄ¬ÈÏ´óÐ´·ÃÎÊ¡£
+          enabled: true   #Â·ï¿½É·ï¿½ï¿½Ê·ï¿½Ê½ï¿½ï¿½http://Gateway_HOST:Gateway_PORT/ï¿½ï¿½Ð´ï¿½ï¿½serviceId/**ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½Ï´ï¿½Ð´ï¿½ï¿½ï¿½Ê¡ï¿½
       routes:
 #      - id: 163
 #        uri: http://www.163.com/
